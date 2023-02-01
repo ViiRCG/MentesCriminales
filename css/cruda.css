@@ -1,0 +1,36 @@
+.main__cruda{
+    margin-top: 140px;
+    font-family: Manrope;
+}
+
+.section{
+    width: 98%;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #666F75; 
+}
+.section__intro{
+    background-color: rgba(54, 54, 54, 0.164);
+    border-radius: 5px;
+    text-align: justify;
+    width: 99.2%;
+    margin: 20px 0px;
+    padding: 20px;
+}
+.section__cruda{
+    background-color: rgba(54, 54, 54, 0.164);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cruda__texts{
+    background-color: rgba(198, 198, 198, 0.164);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 55%;
+    text-align: justify;
+}
+

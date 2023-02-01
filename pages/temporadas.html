@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/tempo.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../webfonts/all.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <title>Temporadas</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header__title">
+            <div>
+                <p class="header__text">MENTES CRIMINALES</p>
+            </div>
+            <div class="header__menu">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="../index.html" class="menu__link">
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="./personajes.html" class="menu__link">
+                                Personajes
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="./ubicaciones.html" class="menu__link">
+                                Ubicaciones
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="./temporadas.html" class="menu__link">
+                                Temporadas
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="./crudarealidad.html" class="menu__link">
+                                Cruda Realidad
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--             <div class="header__login">
+                    <p>Perfil</p>
+                    <img src="./assets/images/usuario.png" alt="" class="img">
+                </div> -->
+            </div>
+        </div>
+
+
+    </div>
+    <main class="main__tempo">
+
+
+        <section class="section__tempo">
+            <div class="contain_formulario">
+                <div>
+                    <h2 class="fs-2 text-center">
+                        Si deseas acceder a esta información, deberás registrarte:
+                    </h2>
+                </div>
+
+
+
+                <form action="" method="" class="form">
+
+                    <div class="columna">
+                        <div class="linea">
+                            <label class="label">Nombre: </label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Verónica" required>
+                        </div>
+                        <div class="linea">
+                            <label class="label" for="nacimiento">Fecha de nacimiento: </label>
+                            <input type="date" name="nacimiento" id="nacimiento" required>
+                        </div>
+                        <div class="linea">
+                            <label class="label" for="tlf">Teléfono: </label>
+                            <input type="text" name="tlf" id="tlf" placeholder="666666666" required>
+
+                        </div>
+                        <div class="linea">
+                            <label class="label" for="direccion">Dirección: </label>
+                            <input type="text" name="direccion" id="direccion" placeholder="Barrio Salamanca, 2"
+                                required>
+                        </div>
+                        <div class="linea">
+                            <label class="label" for="sexo">Sexo: </label>
+                            <input type="radio" name="sexo" value="masculino">Masculino
+                            <input type="radio" name="sexo" value="femenino">Femenino
+
+                        </div>
+                    </div>
+                    <div class="columna">
+                        <div class="linea">
+                            <label class="label" for="apellido1">Apellidos: </label>
+
+                            <input type="text" name="apellidos" id="apellidos" placeholder="Estévez Urdiales" required>
+                        </div>
+                        <div class="linea">
+                            <label class="label" for="correo">Correo electrónico: </label>
+                            <input type="email" placeholder="correo@correo.com" required>
+
+                        </div>
+                        <div class="linea">
+                            <label class="label" for="localidad">Localidad</label>
+                            <input type="text" name="localidad" id="localidad" placeholder="Madrid" required>
+                        </div>
+                        <div class="linea">
+                            <label class="label" for="cp">CP</label>
+                            <input type="text" name="cp" id="cp" placeholder="28032" required>
+                        </div>
+                        <div class="linea">
+                            <label class="label" for="provincia">Provincia</label>
+                            <select name="provincia" id="provincia" required>
+                                <option value=""></option>
+                                <option value="a coruña">A Coruña</option>
+                                <option value="alava">Álava</option>
+                                <option value="albacete">Albacete</option>
+                                <option value="alicante">Alicante</option>
+                                <option value="almeria">Almería</option>
+                                <option value="asturias">Asturias</option>
+                                <option value="avila">Ávila</option>
+                                <option value="badajoz">Badajoz</option>
+                                <option value="baleares">Baleares</option>
+                                <option value="barcelona">Barcelona</option>
+                                <option value="burgos">Burgos</option>
+                                <option value="caceres">Cáceres</option>
+                                <option value="cadiz">Cádiz</option>
+                                <option value="cantabria">Cantabria</option>
+                                <option value="castellon">Castellón</option>
+                                <option value="ceuta">Ceuta</option>
+                                <option value="ciudadreal">Ciudad Real</option>
+                                <option value="cordoba">Córdoba</option>
+                                <option value="cuenca">Cuenca</option>
+                                <option value="girona">Girona</option>
+                                <option value="granada">Granada</option>
+                                <option value="guadalajara">Guadalajara</option>
+                                <option value="gipuzcoa">Gipuzcoa</option>
+                                <option value="huelva">Huelva</option>
+                                <option value="huesca">Huesca</option>
+                                <option value="jaen">Jaén</option>
+                                <option value="larioja">La Rioja</option>
+                                <option value="laspalmas">Las Palmas</option>
+                                <option value="leon">León</option>
+                                <option value="lerida">Lérida</option>
+                                <option value="lugo">Lugo</option>
+                                <option value="madrid" selected>Madrid</option>
+                                <option value="malaga">Málaga</option>
+                                <option value="melilla">Melilla</option>
+                                <option value="murcia">Murcia</option>
+                                <option value="navarra">Navarra</option>
+                                <option value="ourense">Ourense</option>
+                                <option value="palencia">Palencia</option>
+                                <option value="pontevedra">Pontevedra</option>
+                                <option value="salamanca">Salamanca</option>
+                                <option value="segovia">Segovia</option>
+                                <option value="sevilla">Sevilla</option>
+                                <option value="soria">Soria</option>
+                                <option value="tarragona">Tarragona</option>
+                                <option value="santacruz">Santa Cruz de Tenerife</option>
+                                <option value="teruel">Teruel</option>
+                                <option value="toledo">Toledo</option>
+                                <option value="valencia">Valencia</option>
+                                <option value="valladolid">Valladolid</option>
+                                <option value="vizcaya">Vizcaya</option>
+                                <option value="zamora">Zamora</option>
+                                <option value="zaragoza">Zaragoza</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="columna">
+                        <div class="linea">
+                            <label class="label" for="foto">Adjunta una foto de perfil: </label>
+                            <input type="file" required>
+
+                        </div>
+                    </div>
+
+                    <div class="botones">
+
+                        <input type="submit" value="Enviar" class="boton">
+                        <input type="reset" value="Borrar" class="boton">
+                    </div>
+                </form>
+
+            </div>
+            <div class="contain__foto">
+                <img src="../assets/images/otrofondo.jpeg" alt="" class="img__tempo">
+            </div>
+
+        </section>
+        <aside class="aside_tempo">
+            <div class="capa_aside">
+                <div>
+                    <h2 class="fs-2 text-center text-decoration-underline">
+                        Temporadas y Fechas de estreno
+                    </h2>
+                </div>
+                <!-- tabla de temporadas y fechas de estreno -->
+                <table class="table">
+                    <tr class="fila">
+                        <td class="primera">Temporada</td>
+                        <td class="primera">Fecha</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">1ª</td>
+                        <td class="celda">22 de septiembre de 2005</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">2ª</td>
+                        <td class="celda">20 de septiembre de 2006</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">3ª</td>
+                        <td class="celda">26 de septiembre de 2007</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">4ª</td>
+                        <td class="celda">24 de septiembre de 2008</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">5ª</td>
+                        <td class="celda">23 de septiembre de 2009</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">6ª</td>
+                        <td class="celda">22 de septiembre de 2010</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">7ª</td>
+                        <td class="celda">21 de septiembre de 2011</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">8ª</td>
+                        <td class="celda">26 de septiembre de 2012</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">9ª</td>
+                        <td class="celda">25 de septiembre de 2013</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">10ª</td>
+                        <td class="celda">1 de octubre de 2014</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">11ª</td>
+                        <td class="celda">30 de septiembre de 2015</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">12ª</td>
+                        <td class="celda">28 de septiembre de 2016</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">13ª</td>
+                        <td class="celda">27 de septiembre de 2017</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">14ª</td>
+                        <td class="celda">3 de octubre de 2018</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">15ª</td>
+                        <td class="celda">8 de enero de 2020</td>
+                    </tr>
+                    <tr class="fila">
+                        <td class="celda">16ª</td>
+                        <td class="celda">Pendiente de estreno</td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </aside>
+
+
+    </main>
+    <footer class="footer">
+        <div class="footer__box">
+            <h3>Explora la serie</h3>
+            <div class="footer__items">
+                <a href="https://www.formulatv.com/series/mentes-criminales/noticias/"
+                    class="footer__link">Novedades</a>
+                <a href="https://www.allvipp.com/es/cine-y-television/5-canciones-para-recordar-la-banda-sonora-de-mentes-criminales"
+                    class="footer__link">Música</a>
+
+                <a href="https://poptv.orange.es/series-y-peliculas/reparto-mentes-criminales/"
+                    class="footer__link">Actores</a>
+                <a href="https://www.sensacine.com/series/serie-443/secretos-rodaje/#:~:text=Mentes%20criminales%3A%20anecdotas&text=El%20t%C3%ADtulo%20original%20de%20la,Jason%20Donovan%2C%20para%20ser%20exactos."
+                    class="footer__link">Anécdotas
+                </a>
+            </div>
+        </div>
+        <div class="footer__box">
+            <h3>Otras Series Criminales</h3>
+            <div class="footer__items">
+                <a href="https://www.filmaffinity.com/es/film310747.html" class="footer__link">"Mare of Easttown"</a>
+                <a href="https://es.wikipedia.org/wiki/The_Sinner" class="footer__link">"The Sinner"</a>
+                <a href="https://es.wikipedia.org/wiki/True_Detective" class="footer__link">"True Detective"</a>
+                <a href="https://www.filmaffinity.com/es/film243460.html" class="footer__link">"Marcella"</a>
+            </div>
+        </div>
+        <div class="footer__box">
+            <h3>Redes Sociales</h3>
+            <div class="footer__items footer__items--raw">
+                <div class="footer__img">
+                    <a href="https://www.facebook.com/Mentescriminaleslatino/"><img src="../assets/images/facebook.png"
+                            alt="" class="img"></a>
+                </div>
+                <div class="footer__img">
+                    <a href="https://www.instagram.com/crimmindscbs/?hl=es"><img src="../assets/images/insta.png" alt=""
+                            class="img"></a>
+                </div>
+                <div class="footer__img">
+                    <a href="https://twitter.com/mentescrimin"><img src="../assets/images/twitter.png" alt=""
+                            class="img"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer__box">
+            <h3>Menú</h3>
+            <div class="footer__items">
+                <a href="../index.html" class="footer__link">Inicio</a>
+                <a href="./personajes.html" class="footer__link">Personajes</a>
+                <a href="./ubicaciones.html" class="footer__link">Ubicaciones</a>
+                <a href="./temporadas.html" class="footer__link">Temporadas
+                </a>
+                <a href="./crudarealidad.html" class="footer__link">Cruda Realidad
+                </a>
+            </div>
+        </div>
+
+
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
